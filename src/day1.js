@@ -36,7 +36,7 @@ const init = async () => {
 	try {
 		const data = fs.readFileSync('src/inputs/day1.txt', 'utf8');
 		// await clipboardy.write(String(solvePartOne(data)));
-		await clipboardy.write(String(solvePartTwo(data)));
+		// await clipboardy.write(String(solvePartTwo(data)));
 	} catch (error) {
 		console.error(error);
 	}
