@@ -7,7 +7,7 @@ A Y
 B X
 C Z`;
 
-describe('Test day 1 solution', () => {
+describe('Test day 2 solution', () => {
 	test('test part 1', () => {
 		expect(solvePartOne(input)).toBe(30);
 	});
